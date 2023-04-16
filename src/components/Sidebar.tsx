@@ -1,9 +1,11 @@
+import SpotifyLogo from "@/assets/SpotifyLogo"
 import { HomeIcon, Library, Search } from "lucide-react"
 
 export function Sidebar() {
     return (
         <aside className='w-72 bg-zinc-950 p-6'>
-          <nav className='space-y-5 mt-10'>
+          <SpotifyLogo width="97px" height="96px"/>
+          <nav className='space-y-5'>
             <a href="" className='flex items-center gap-3 text-sm font-semibold text-zinc-200'>
               <HomeIcon />
               Home
